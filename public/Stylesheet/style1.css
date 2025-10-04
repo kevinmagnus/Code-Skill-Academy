@@ -1,0 +1,289 @@
+body {
+
+
+    text-align: center;
+    position: relative;
+    background-color: white;
+    
+    
+        
+    
+}
+
+
+
+
+
+div {
+
+    border: solid 3px yellowgreen;
+    border-radius: 15px 15px 15px 15px;
+    background-color:  rgb(4, 67, 88);
+    margin: 70px;
+    width : auto;
+    padding: 20px;
+    text-align: center;
+
+    
+}
+
+#profile_photo {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#greeting-header {
+
+    color: powderblue;
+}
+
+#title {
+
+    color: grey;
+}
+
+.head {
+
+    color: powderblue;
+}
+
+button {
+    
+    color:rgb(27, 71, 153);
+    margin:1px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: grey;
+    border: solid 2px rgb(128, 68, 156);
+    border-radius: 8px 0 8px 0;
+}
+
+a {
+    color: rgb(185, 159, 159);
+    text-decoration: none;
+}
+
+nav {
+
+    position: absolute;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.links {
+
+    position: relative;
+}
+
+#coded {
+
+    color: orange;
+    
+
+}
+
+#or {
+
+    color:aqua;
+}
+
+input {
+
+    color: rgb(17, 136, 71);
+    border: solid 3px grey;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+
+}
+
+textarea {
+
+    background-color: white;
+    border: solid 3px grey;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.fade-text{
+    color: rgba(150, 166, 168, 0.678)
+}
+
+.submit-button {
+
+    background-color: rgb(1, 126, 84);
+    color: rgb(201, 199, 199);
+}
+
+label {
+
+    color: gray;
+}
+
+fieldset {
+
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px;
+    border: solid 5px gray;
+    padding: 10px;
+}
+
+#cert {
+
+margin : 60px;
+}
+
+#err {
+
+    color: red;
+}
+
+#succ {
+
+    color: green;
+}
+
+img {
+
+    margin: 50px;
+    border: solid;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: darkgrey;
+    width: 600px;
+    height: 300px;
+    border: solid 3px yellowgreen;
+    
+}
+
+
+h3 {
+
+color:rgb(135, 207, 240);
+margin: 50px;
+
+
+}
+
+
+#curiosity {
+
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ a {
+    color: rgb(61, 240, 150);
+}
+
+italic {
+    color: gray;
+}
+
+h1, h2 {
+
+    color: rgb(152, 217, 219);
+    margin: 3px;
+}
+
+#motto {
+
+    margin: 3px;
+    color: orange;
+}
+
+p {
+    color : rgb(201, 192, 192);
+    padding: 10px;
+}
+
+ul {
+
+    color : darkcyan;
+}
+
+li {
+    margin: 5px;
+}
+
+
+.course{
+
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.enrollment {
+
+
+    width: 25%;
+    background-color: springgreen;
+    font-size: 20px;
+    font-weight: 40px;
+}
+
+
+footer {
+
+    background-color: black;
+    color: red;
+}
+
+.card {
+
+    background-color: rgba(128, 128, 128, 0.733);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px; rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    margin: 80px;
+    padding: 80px;
+}
+
+.card:hover {
+
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+    transform: translateY(-5px);
+}
+
+#introduction {
+
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(182, 164, 164);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+
+        padding: 10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .container{
+
+        padding: 5px;
+    }
+}
