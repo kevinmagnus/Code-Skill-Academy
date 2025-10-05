@@ -269,21 +269,3 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
-@media only screen and (max-width: 768px) {
-
-    .container{
-
-        padding: 10px;
-    }
-
-
-}
-
-
-@media only screen and (max-width: 480px) {
-
-    .container{
-
-        padding: 5px;
-    }
-}
