@@ -20,7 +20,6 @@ div {
     border-radius: 15px 15px 15px 15px;
     background-color:  rgb(4, 67, 88);
     margin: 70px;
-    width : auto;
     padding: 20px;
     text-align: center;
 
@@ -178,7 +177,9 @@ margin: 50px;
 .container {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: wrap;
     
 
 }
