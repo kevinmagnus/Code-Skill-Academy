@@ -17,7 +17,7 @@ const posts = [
 
     {
 
-        id: '1',
+        id : '1',
         new_post: "This is my first post.",
         important: "true",
 
