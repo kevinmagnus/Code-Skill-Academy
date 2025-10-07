@@ -20,7 +20,7 @@ div {
     border-radius: 15px 15px 15px 15px;
     background-color:  rgb(4, 67, 88);
     margin: 70px;
-    width : 100%;
+    width : auto;
     padding: 20px;
     text-align: center;
 
@@ -95,7 +95,7 @@ nav {
 input {
 
     color: rgb(17, 136, 71);
-    border: solid 3px grey;
+    border: solid 3px rgb(8, 221, 114);
     border-radius: 10px 10px 10px 10px;
     margin: 10px;
 
@@ -202,19 +202,17 @@ h1, h2 {
 
     margin: 3px;
     color: orange;
+    font-style: oblique;
 }
 
-p {
-    color : rgb(201, 192, 192);
+address {
+    color : white;
     padding: 10px;
 }
 
-ul {
-
-    color : darkcyan;
-}
 
 li {
+    color: rgb(60, 255, 0);
     margin: 5px;
 }
 
@@ -227,7 +225,7 @@ li {
 
 
 
-.enrollment {
+.enrollment, #sign-up-button {
 
 
     width: 25%;
@@ -271,4 +269,12 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(182, 164, 164);
 }
 
+legend {
+    color:darkturquoise;
+}
 
+p {
+
+    color: rgb(221, 205, 205);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
