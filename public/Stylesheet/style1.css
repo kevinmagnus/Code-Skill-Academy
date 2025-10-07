@@ -178,7 +178,7 @@ margin: 50px;
 .container {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
 
 }
