@@ -249,12 +249,10 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 10px; rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
-    margin: 20px;
-    transition: all 0.3s ease-in-out;
     width: auto;
+    transition: all 0.3s ease-in-out;
     margin: 80px;
-    padding: 80px;
+    
 }
 
 .card:hover {
