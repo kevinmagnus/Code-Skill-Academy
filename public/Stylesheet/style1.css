@@ -180,8 +180,14 @@ margin: 50px;
     flex-direction: row;
     width: 200px;
     flex-wrap: wrap;
+
     
 
+}
+
+.item {
+    text-align: center;
+    flex-basis: auto;
 }
 
 
