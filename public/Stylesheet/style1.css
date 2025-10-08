@@ -2,8 +2,7 @@ body {
 
 
     text-align: center;
-    position: relative;
-    background-color: white;
+    background-color: white ;
     
     
         
@@ -60,10 +59,7 @@ button {
     border-radius: 8px 0 8px 0;
 }
 
-a {
-    color: rgb(185, 159, 159);
-    text-decoration: none;
-}
+
 
 nav {
 
@@ -177,9 +173,11 @@ margin: 50px;
 .container {
 
     display: flex;
-    flex-direction: row;
-    width: 200px;
+    flex-direction: column;
+    width: auto;
     flex-wrap: wrap;
+    text-align: center;
+
 
     
 
@@ -187,13 +185,11 @@ margin: 50px;
 
 .item {
     text-align: center;
-    flex-basis: auto;
+    width:auto;
 }
 
 
- a {
-    color: rgb(61, 240, 150);
-}
+ 
 
 italic {
     color: gray;
@@ -232,13 +228,13 @@ li {
 
 
 
-.enrollment, #sign-up-button {
+a {
 
 
-    width: 25%;
-    background-color: springgreen;
-    font-size: 20px;
+color: springgreen;
     font-weight: 40px;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 
@@ -280,6 +276,24 @@ legend {
 
 p {
 
-    color: rgb(221, 205, 205);
+    color: rgb(247, 215, 215);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.enrollment,#sign-up-button {
+
+    border: solid 3px grey;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 30px;
+    background-color: springgreen;
+    width: auto;
+}
+
+.price {
+
+    font-size: 25px;
+    font-weight: 40px;
+    color: springgreen;
+}
+
