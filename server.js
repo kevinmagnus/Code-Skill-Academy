@@ -57,12 +57,19 @@ app.get('/', (request, response) => {
 });
 
 
-app.get('/About', (request, response) => {
+app.get('/Front-End', (request, response) => {
 
-response.sendFile(path.join(__dirname, 'public', 'Users', 'sign-up.html'));
+response.sendFile(path.join(__dirname, 'public', 'Front-End-Learn-More.html'));
 
 });
 
+
+app.get('/Sign-Up', (request, response) => {
+
+
+    response.sendFile(path.join(__dirname, 'public', 'Sign-Up.html'));
+
+});
 
 app.get('/users/posts', (request, response) => {
 

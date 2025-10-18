@@ -246,7 +246,7 @@ footer {
 
 .card {
 
-    background-color: rgba(128, 128, 128, 0.733);
+    background-color: rgba(66, 53, 53, 0.733);
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px; rgba(0, 0, 0, 0.1);
@@ -286,8 +286,10 @@ p {
     border-radius: 10px 0px 10px 0px;
     font-size: 20px;
     font-weight: 30px;
-    background-color: springgreen;
+    color: springgreen;
     width: auto;
+    background-color: white;
+    
 }
 
 .price {
